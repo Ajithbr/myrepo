@@ -6,3 +6,4 @@ xl.sheet_names
 
 df = xl.parse("Sheet1")
 df.head()
+print ("git pull master")
