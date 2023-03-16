@@ -3,11 +3,12 @@
 // Pipeline block
 pipeline {
 // Agent block
-agent {
-   node {
-      label 'Manage_Contact_Demo'
-   }
-}
+//agent {
+//   node {
+//      label 'Manage_Contact_Demo'
+//   }
+//}
+agent any
 options {
    buildDiscarder(logRotator(numToKeepStr: '5'))
    timestamps()
