@@ -44,7 +44,7 @@ stage("Push to Dockerhub") {
       script {
          echo "Pushing the image to docker hub"
          def localImage = "${params.Image_Name}:${params.Image_Tag}"
-         def repositoryName = "pchejara/${localImage}"
+         def repositoryName = "ajhebtr/${localImage}"
          sh "docker tag ${localImage} ${repositoryName} "
          docker.withRegistry("", "DockerHubCredentials") {
             def image = docker.image("${repositoryName}");
