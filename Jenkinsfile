@@ -5,7 +5,7 @@ pipeline {
 // Agent block
 agent {
    node {
-      label 'Built-In Node'
+      label 'Manage_Contact_Demo'
    }
 }
 
