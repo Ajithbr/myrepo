@@ -1,4 +1,4 @@
-FROM node
+FROM node:latest
 
 # Set application working directory
 WORKDIR /usr/src/manage_contacts
